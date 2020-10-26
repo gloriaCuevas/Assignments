@@ -1,13 +1,11 @@
+package CoffeeMachines;
 
+public class OldCoffeeMachine {
 
-public class OldCoffeeMachine 
-{
-		
-		public void selectA() {
-			System.out.println("You selected option: A");
-		}
-		
-		public void selectB() {
-			System.out.println("You selected option: B");
-		}
+	public String selectA() {
+		return "A - Selected";
+	}
+	public String selectB() {
+		return "B - Selected";
+	}
 }

@@ -1,10 +1,6 @@
+package CoffeeMachines;
 
-
-public interface CoffeeMachineInterface
-{
-	
-	public  void FirstSelection();
-	
-	
-	public  void SecondSelection();
+public interface CoffeeMachineInterface {
+	public void chooseFirstSelection();
+	public void chooseSecondSelection();
 }
